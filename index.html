@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NST-SDC — Student Development Club, Newton School of Technology</title>
+  <meta name="description"
+    content="NST-SDC is the student developer community at Newton School of Technology, Pune — building open-source projects, running workshops, and preparing students for Hacktoberfest and GSoC.">
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/images/logo.png" alt="NST-SDC logo">
+        <span>NST&ndash;SDC</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="community.html">Community</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" style="border-bottom:none; padding:0;">
+      <canvas id="hero-glitch" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-vignette"></div>
+      <div class="hero-content">
+        <span class="label">Newton School of Technology &middot; Pune</span>
+        <h1 class="hero-title">
+          Student Development Club
+          <span class="line-2">Vibrant community of tech enthusiasts</span>
+        </h1>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View projects</a>
+          <a href="community.html" class="btn btn-glass">Join the community</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">About the club</span>
+          <h2>A place to build, contribute, and learn in public</h2>
+        </div>
+        <div class="grid-2">
+          <p>
+            NST-SDC is the student developer community at Newton School of Technology, Pune.
+            We're a group of builders who'd rather ship something small and real than talk about
+            it — open-source contributions, side projects, and the occasional 2am debugging session
+            together.
+          </p>
+          <p>
+            Our goal is simple: give every student a place to collaborate, learn, and grow in tech —
+            preparing them for real-world challenges through hands-on projects, mentorship, and a
+            community that pushes each other forward.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section id="what-we-do">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">What we do</span>
+          <h2>Five ways to get involved</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-block">
+            <span class="label">Open source</span>
+            <h3>Build and contribute</h3>
+            <p>Work on impactful open-source projects, from first PR to maintaining your own repo.</p>
+          </div>
+          <div class="feature-block">
+            <span class="label">Workshops</span>
+            <h3>Learn what's current</h3>
+            <p>Hands-on sessions on the tools and tech trends that matter right now.</p>
+          </div>
+          <div class="feature-block">
+            <span class="label">Hackathons</span>
+            <h3>Compete and ship</h3>
+            <p>Coding competitions and hackathons that turn ideas into working software, fast.</p>
+          </div>
+          <div class="feature-block">
+            <span class="label">Mentorship</span>
+            <h3>Learn from peers</h3>
+            <p>Pair up with experienced members for code reviews, career advice, and direction.</p>
+          </div>
+          <div class="feature-block">
+            <span class="label">Knowledge sharing</span>
+            <h3>Grow together</h3>
+            <p>Talks, write-ups, and internal sessions that keep the whole club learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="stack">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Tech stack</span>
+          <h2>What we build with</h2>
+        </div>
+        <div class="tag-row" style="margin-bottom:var(--space-4);">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">React</span><span class="tag">Vue.js</span>
+        </div>
+        <div class="tag-row" style="margin-bottom:var(--space-4);">
+          <span class="tag">Node.js</span><span class="tag">Django</span><span class="tag">Flask</span>
+        </div>
+        <div class="tag-row" style="margin-bottom:var(--space-4);">
+          <span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Firebase</span>
+        </div>
+        <div class="tag-row" style="margin-bottom:var(--space-4);">
+          <span class="tag">Git</span><span class="tag">Docker</span><span class="tag">Kubernetes</span>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span><span
+            class="tag">AI/ML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights">
+      <div class="container">
+        <div class="stat-row">
+          <div class="stat-block">
+            <strong>100+</strong>
+            <span class="label">Active student developers</span>
+          </div>
+          <div class="stat-block">
+            <strong>4</strong>
+            <span class="label">Core focus areas — web, mobile, AI/ML, and more</span>
+          </div>
+          <div class="stat-block">
+            <strong>2</strong>
+            <span class="label">Flagship initiatives — Hacktoberfest &amp; GSoC prep</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section id="featured-projects">
+      <div class="container">
+        <div class="section-heading"
+          style="display:flex; align-items:flex-end; justify-content:space-between; max-width:none;">
+          <div>
+            <span class="label">Featured projects</span>
+            <h2>Recent builds from the club</h2>
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <span class="label">Web</span>
+            <h3>Open-Source-Tracker-NST</h3>
+            <p>A leaderboard that tracks NST students' open-source GitHub contributions </p>
+            <div class="card-footer">
+              <div class="tag-row"><span class="tag">TypeScript</span><span class="tag">Rust</span><span class="tag">JavaScript</span></div>
+              <a href="https://github.com/nst-sdc/Open-Source-Tracker-NST" aria-label="View on GitHub">GitHub &nearr;</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="label">Docker</span>
+            <h3>kubernetics-deployement</h3>
+            <p>A containerized deployment solution for Kubernetes applications.</p>
+            <div class="card-footer">
+              <div class="tag-row"><span class="tag">HTML</span><span class="tag">Dockerfile</span></div>
+              <a href="https://github.com/nst-sdc/kubernetics-deployement" aria-label="View on GitHub">GitHub &nearr;</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="label">Mobile</span>
+            <h3>tekron-2.0-APK</h3>
+            <p>Tekron App is an event management and check-in system designed to eliminate the chaos typically seen during college fests. </p>
+            <div class="card-footer">
+              <div class="tag-row"><span class="tag">TypeScript</span><span class="tag">JavaScript</span></div>
+              <a href="https://github.com/nst-sdc/tekron-2.0-APK" aria-label="View on GitHub">GitHub &nearr;</a>
+            </div>
+          </article>
+        </div>
+        <p style="margin-top:var(--space-5);"><a href="projects.html" class="btn btn-outline">View all projects</a></p>
+      </div>
+    </section>
+
+    <!-- COMMUNITY CTA -->
+    <section id="cta" style="border-bottom:none;">
+      <div class="container" style="text-align:center;">
+        <h2>Want to build with us?</h2>
+        <p style="margin:var(--space-3) auto var(--space-5);">
+          Join the club, contribute to a project, or just say hello — everyone starts somewhere.
+        </p>
+        <div class="hero-actions" style="margin-top:0;">
+          <a href="community.html" class="btn btn-primary">Get involved</a>
+          <a href="mailto:support@nstsdc.org" class="btn btn-outline">support@nstsdc.org</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="index.html" class="nav-brand">
+          <img src="assets/images/logo.png" alt="NST-SDC logo">
+          <span>NST&ndash;SDC</span>
+        </a>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="community.html">Community</a>
+          <a href="https://nstsdc.org">Website</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 NST Student Development Club</span>
+        <span>Newton School of Technology, Pune</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/letter-glitch.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

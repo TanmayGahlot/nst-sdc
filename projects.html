@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — NST-SDC</title>
+<meta name="description" content="Open-source and student-built projects from the NST Student Development Club.">
+<link rel="icon" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/images/logo.png" alt="NST-SDC logo">
+      <span>NST&ndash;SDC</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="community.html">Community</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="label">Projects</span>
+      <h1>Things we've built</h1>
+      <p style="margin-top:var(--space-3);">
+        Open-source tools, student experiments, and hackathon builds — from first commit to
+        production. Fork one, file an issue, or send a PR.
+      </p>
+    </div>
+  </div>
+
+  <section style="border-bottom:none;">
+    <div class="container">
+      <div class="filter-row" role="group" aria-label="Filter projects by category">
+        <button class="filter-chip" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-chip" data-filter="web" aria-pressed="false">Web</button>
+        <button class="filter-chip" data-filter="app" aria-pressed="false">App</button>
+        <button class="filter-chip" data-filter="ai-ml" aria-pressed="false">AI / ML</button>
+      </div>
+
+      <div class="grid-3">
+        <article class="card" data-category="web">
+          <span class="label">Web</span>
+          <h3>Project name</h3>
+          <p>A short description of what this project does and the problem it solves.</p>
+          <div class="card-footer">
+            <div class="tag-row"><span class="tag">React</span><span class="tag">Node.js</span></div>
+            <a href="#" aria-label="View on GitHub">GitHub &nearr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="ai-ml">
+          <span class="label">AI / ML</span>
+          <h3>Project name</h3>
+          <p>A short description of what this project does and the problem it solves.</p>
+          <div class="card-footer">
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">Flask</span></div>
+            <a href="#" aria-label="View on GitHub">GitHub &nearr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="app">
+          <span class="label">App</span>
+          <h3>Screen Time Recorder</h3>
+          <p>The Screen Time Recorder helps users track and improve their actual study time by analysing screen content.</p>
+          <div class="card-footer">
+            <div class="tag-row"><span class="tag">Vue.js</span><span class="tag">Firebase</span></div>
+            <a href="https://github.com/nst-sdc/Screentime-recoder" aria-label="View on GitHub">GitHub &nearr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="web">
+          <span class="label">Web</span>
+          <h3>Project name</h3>
+          <p>A short description of what this project does and the problem it solves.</p>
+          <div class="card-footer">
+            <div class="tag-row"><span class="tag">Django</span><span class="tag">MySQL</span></div>
+            <a href="#" aria-label="View on GitHub">GitHub &nearr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="ai-ml">
+          <span class="label">AI / ML</span>
+          <h3>Project name</h3>
+          <p>A short description of what this project does and the problem it solves.</p>
+          <div class="card-footer">
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">TensorFlow</span></div>
+            <a href="#" aria-label="View on GitHub">GitHub &nearr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="mobile">
+          <span class="label">Mobile</span>
+          <h3>Project name</h3>
+          <p>A short description of what this project does and the problem it solves.</p>
+          <div class="card-footer">
+            <div class="tag-row"><span class="tag">React</span><span class="tag">Firebase</span></div>
+            <a href="#" aria-label="View on GitHub">GitHub &nearr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-bottom:none; padding-top:0;">
+    <div class="container" style="text-align:center;">
+      <p style="margin:0 auto;">Built something worth showing off?</p>
+      <div class="hero-actions" style="margin-top:var(--space-4);">
+        <a href="community.html" class="btn btn-primary">Submit your project</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/images/logo.png" alt="NST-SDC logo">
+        <span>NST&ndash;SDC</span>
+      </a>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="community.html">Community</a>
+        <a href="https://nstsdc.org">Website</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 NST Student Development Club</span>
+      <span>Newton School of Technology, Pune</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

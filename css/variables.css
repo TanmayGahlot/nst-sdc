@@ -1,0 +1,44 @@
+:root {
+  /* Color */
+  --color-bg: #0a0a0c;
+  --color-surface: #141419;
+  --color-ink: #ffffff;
+  --color-ink-soft: #a1a1aa;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-invert-bg: #000000;
+  --color-invert-ink: #ffffff;
+  --color-accent: #5fd4e0; /* used sparingly, drawn from the club logo glow */
+
+  /* Type */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-label: "JetBrains Mono", "Courier New", monospace;
+
+  /* Radius */
+  --radius-card: 10px;
+  --radius-tag: 4px;
+  --radius-pill: 999px;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+
+  /* Layout */
+  --container-width: 1200px;
+  --container-pad: 24px;
+  --border-thin: 1px solid var(--color-border);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --container-pad: 16px;
+    --space-8: 64px;
+    --space-7: 48px;
+  }
+}
